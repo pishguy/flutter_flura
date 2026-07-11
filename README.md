@@ -1,6 +1,6 @@
 <table>
 <tr>
-<td width="50%"><img src="logo.png" width="300" alt="Flura"></td>
+<td width="50%"><img src="logo.png" width="100%" alt="Flura"></td>
 <td width="50%" valign="middle">
 
 ## Flura
