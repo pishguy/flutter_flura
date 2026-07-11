@@ -1,0 +1,19 @@
+name: flura_facades
+description: Integration bridge between Flura Core and Flutter Facades. Wires facade resolution, container adaptation, and service provider bootstrapping.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/pishguy/flura
+homepage: https://github.com/pishguy/flura
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flura_core:
+    path: ../flura_core
+  flutter_facades:
+    path: /Users/mahdipishguy/Desktop/projects/flutter/flutter_facades
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^5.0.0

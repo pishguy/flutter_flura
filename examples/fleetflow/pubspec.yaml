@@ -1,0 +1,22 @@
+name: fleetflow
+description: Flura framework example — multi-tenant service management platform.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flura:
+    path: ../../packages/flura
+  umay_db:
+    path: /Users/mahdipishguy/Desktop/projects/flutter/umay_db
+  flutter_facades:
+    path: /Users/mahdipishguy/Desktop/projects/flutter/flutter_facades
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

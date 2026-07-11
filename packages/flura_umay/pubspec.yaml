@@ -1,0 +1,18 @@
+name: flura_umay
+description: Integration package between Flura Core and UmayDB. Manages database lifecycle, migrations, and provides a Pure Dart cache backend.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/pishguy/flura
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flura_core:
+    path: ../flura_core
+  umay_db:
+    path: /Users/mahdipishguy/Desktop/projects/flutter/umay_db
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^5.0.0

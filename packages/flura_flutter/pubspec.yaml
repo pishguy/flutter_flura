@@ -1,0 +1,19 @@
+name: flura_flutter
+description: Flutter-specific bindings for the Flura framework. Handles WidgetsFlutterBinding initialization, runApp integration, error handling, and platform lifecycle.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/pishguy/flura
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flura_core:
+    path: ../flura_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

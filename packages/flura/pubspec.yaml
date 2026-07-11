@@ -1,0 +1,26 @@
+name: flura
+description: Umbrella package for the Flura framework. Re-exports commonly used Flura APIs from a single import.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/pishguy/flura
+
+environment:
+  sdk: ^3.10.0
+  flutter: ^3.31.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flura_core:
+    path: ../flura_core
+  flura_facades:
+    path: ../flura_facades
+  flura_umay:
+    path: ../flura_umay
+  flura_flutter:
+    path: ../flura_flutter
+  flura_capsa:
+    path: ../flura_capsa
+
+dev_dependencies:
+  lints: ^5.0.0
